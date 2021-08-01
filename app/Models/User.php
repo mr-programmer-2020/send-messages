@@ -30,8 +30,6 @@ class User extends Authenticatable
         'telegram_user_id',
     ];
 
-    protected $table = 'sessions';  
-
     /**
      * The attributes that should be hidden for arrays.
      *
